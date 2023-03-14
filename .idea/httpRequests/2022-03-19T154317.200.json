@@ -1,0 +1,29 @@
+{
+  "blockPage": null,
+  "appName": "UserServer",
+  "consoleServer": [],
+  "coldFactor": "3",
+  "rules": {
+    "systemRules": [],
+    "authorityRule": [],
+    "paramFlowRule": [],
+    "flowRules": [],
+    "degradeRules": []
+  },
+  "metricsFileCharset": "UTF-8",
+  "filter": {
+    "order": -2147483648,
+    "urlPatterns": [
+      "/**"
+    ],
+    "enabled": true
+  },
+  "totalMetricsFileCount": 6,
+  "datasource": {},
+  "clientIp": "192.168.0.105",
+  "clientPort": "8720",
+  "logUsePid": false,
+  "metricsFileSize": 52428800,
+  "logDir": "C:\\Users\\12923\\logs\\csp\\",
+  "heartbeatIntervalMs": 10000
+}

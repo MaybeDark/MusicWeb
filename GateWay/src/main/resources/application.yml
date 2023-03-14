@@ -1,0 +1,46 @@
+# 应用名称
+spring :
+  application :
+    name: GateWay
+
+  cloud:
+    loadbalancer:
+      cache:
+        enabled: false
+      ribbon:
+        enabled: false
+
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+
+      routes:
+        - id: UserServer        #服务名
+          uri: lb://UserServer  #lb使用nacos的负载均衡
+          predicates:           #匹配规则
+            - Path=/user/**     #路径匹配规则
+
+
+        - id: ResourceServer
+          uri: lb://ResourceServer
+          predicates:
+            - Path=/resource/**
+
+        - id: DataServer
+          uri: lb://DataServer
+          predicates:
+              - Path=/data/**
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Origin, RETAIN_UNIQUE
+
+    nacos:
+        server-addr: 39.108.248.44:8848
+        discovery:
+          username: nacos
+          password: nacos
+          namespace: public
+          group: MusicWeb
+
+server:
+  port : 9000

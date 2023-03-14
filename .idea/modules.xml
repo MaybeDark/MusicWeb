@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataServer/DataServer.iml" filepath="$PROJECT_DIR$/DataServer/DataServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GateWay/GateWay.iml" filepath="$PROJECT_DIR$/GateWay/GateWay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MusicWeb.iml" filepath="$PROJECT_DIR$/MusicWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ResourceServer/ResourceServer.iml" filepath="$PROJECT_DIR$/ResourceServer/ResourceServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ResourcesServer/ResourcesServer.iml" filepath="$PROJECT_DIR$/ResourcesServer/ResourcesServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserServer/UserServer.iml" filepath="$PROJECT_DIR$/UserServer/UserServer.iml" />
+    </modules>
+  </component>
+</project>

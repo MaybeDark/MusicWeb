@@ -1,0 +1,22 @@
+POST http://localhost:8903/resource/uploadAudio
+
+###
+
+GET http://localhost:8903/resource/getAudio
+
+<> 2022-04-19T210238.400.json
+
+###
+
+GET http://localhost:8902/actuator/sentinel
+Accept: application/vnd.spring-boot.actuator.v3+json
+
+<> 2022-03-19T154317.200.json
+
+###
+
+GET http://localhost:8902/actuator/service-registry
+Accept: application/vnd.spring-boot.actuator.v3+json
+
+###
+
